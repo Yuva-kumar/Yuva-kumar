@@ -1,0 +1,23 @@
+/*data type*/
+#include<stdio.h>
+int main()
+{ 
+    char y;
+    int  a;
+    long int b;
+    float c;
+    double d;
+    double e;
+    y='A';
+    a=125;
+    b=48426;
+    c=35.426;
+    d=12345.1234567;
+    e=454545.123456789;
+    printf("%ch",y);
+    printf("%d",a);
+    printf("%ld",b);
+    printf("%f",c);
+    printf("%lf",d);
+    printf("%lf",e);
+}
